@@ -28,7 +28,7 @@ fi
 hsqldb_silent="-silent false"
 
 if [ "${HSQLDB_SILENT}" = 'true' ]; then
-  hsqldb_trace="-silent true"
+  hsqldb_silent="-silent true"
 fi
 
 hsqldb_remote="-remote_open true"
